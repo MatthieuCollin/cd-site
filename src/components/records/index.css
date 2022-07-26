@@ -1,0 +1,53 @@
+.contenair{
+    margin-right: auto;
+    margin-top: auto;
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    margin-top: 8%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.record{
+    width: 700px;
+    height: 200px;
+    background-color: #4d4d4e;
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.recordImg{
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 150px;
+}
+
+.infoRecord{
+    margin-left: 20px;
+    width: 70%;
+   height: 180px;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.listOrder{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;  
+}
+
+.search{
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

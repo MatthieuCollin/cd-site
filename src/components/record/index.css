@@ -1,0 +1,39 @@
+.recordDiv{
+    width: 1000px;
+    height: 600px;
+    background-color: #4d4d4e;
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.recordList{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 550px;
+}
+
+.infoDiv{
+    margin-left: 20px;
+    width: 40%;
+    height: auto;
+    overflow: hidden;
+    text-overflow: clip;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    font-size: large;
+    margin-top: 10%;
+}
+
+@media screen and(max-width: 1050px) {
+    .recordList{
+        width: 150px;
+    }
+}

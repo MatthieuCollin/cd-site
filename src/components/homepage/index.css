@@ -1,0 +1,40 @@
+.contenair{
+    margin-right: auto;
+    margin-top: auto;
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    margin-top: 8%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.newRecord, .randomRecord{
+    width: 450px;
+    height: 600px;
+    background-color: #4d4d4e;
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.recordHome{
+    margin-top: 8%;
+    margin-bottom: auto;
+    width: 250px;
+    max-height: 100%;
+}
+
+.spotify{
+    width: 400px;
+    margin-bottom: 8%;
+}
+
+.titreCalmant{
+    overflow: hidden;
+    size: 20%;
+}
